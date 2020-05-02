@@ -56,14 +56,14 @@ define(function(require) {
 					}
 				];
 
-				if (results.storage) {
-					var tabStorage = {
-						text: self.i18n.active().voicemails.menuTitles.storage,
-						callback: self.renderStorage
-					};
+				// if (results.storage) {
+				// 	var tabStorage = {
+				// 		text: self.i18n.active().voicemails.menuTitles.storage,
+				// 		callback: self.renderStorage
+				// 	};
 
-					menus[0].tabs.push(tabStorage);
-				}
+				// 	menus[0].tabs.push(tabStorage);
+				// }
 
 				monster.ui.generateAppLayout(self, {
 					menus: menus
